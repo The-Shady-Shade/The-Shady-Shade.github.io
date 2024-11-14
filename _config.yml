@@ -1,0 +1,9 @@
+# Site settings
+title: TheShadyShade
+description: TheShadyShade is a beginner game developer.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://the-shady-shade.github.io" # the base hostname & protocol for your site
+permalink: /articles/:title
+
+# Build settings
+# markdown: kramdown
