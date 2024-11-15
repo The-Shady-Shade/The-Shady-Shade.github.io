@@ -84,7 +84,7 @@ a.nav-item:hover {
 
 .title {
 	color: #bec4cb;
-	text-align: left;
+	text-align: center;
 	margin-bottom: 2rem;
 }
 
@@ -99,12 +99,16 @@ a.nav-item:hover {
 }
 
 @media screen and (max-width: 768px) {
+	.iframe {
+		width: 211px;
+	}
+
 	.nav-menu {
 		background-color: #1e1e1e;
 	}
 
 	.nav-toggle:hover {
-		background-color: transparent;
+		background-color: #8900e8;
 	}
 
 	.nav-toggle span {
