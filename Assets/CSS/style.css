@@ -1,0 +1,118 @@
+@font-face {
+    font-family: 'Silver';
+    src: url('Assets/Fonts/Silver.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
+
+.vt323-regular {
+	font-family: "VT323", monospace;
+	font-weight: 400;
+	font-style: normal;
+  }
+
+html, body{
+	/*font-family: 'VT323', sans-serif;*/
+	font-size: 16px;
+	color: #bec4cb;
+	/*text-shadow: 1px 1px 2px #bec4cb, 0px 0px 0.3rem #bec4cb;*/
+	background-color: #1e1e1e; 
+}
+
+a {
+  color: #08000e;
+}
+
+a:hover {
+  color: #08000e;
+}
+
+section{
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+}
+
+.section-1 {
+	background: #1e1e1e;
+}
+
+.section-2 {
+	background-color: #1e1e1e;
+}
+
+.section-3 {
+	background-color: #1e1e1e;
+}
+
+a.nav-item {
+	color: #bec4cb; /*Иконки*/
+}
+
+a.nav-item:hover {
+	color: #8900e8;
+}
+
+.avatar{
+	height:300px; /*Лого*/
+}
+
+.intro-description{
+	padding-top: 1rem;
+}
+
+.social-container img{
+	max-width:100%;
+	max-height:175px;
+	margin-bottom:15px;
+}
+
+.project-figure {
+	max-height: 256px;
+	max-width: 256px;
+}
+
+.project-text {
+	text-align: center;
+}
+
+.project-text-two {
+	color: #8900e8;
+	/*text-shadow: 1px 1px 2px #8900e8, 0px 0px 0.3rem #8900e8;*/
+}
+
+.box {
+	background-color: transparent;
+}
+
+.title {
+	color: #bec4cb;
+	text-align: left;
+	margin-bottom: 2rem;
+}
+
+.intro {
+	text-align: center;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.void-background {
+	background-color: transparent; 
+}
+
+@media screen and (max-width: 768px) {
+	.nav-menu {
+		background-color: #063647;
+	}
+
+	.nav-toggle:hover {
+		background-color: transparent;
+	}
+
+	.nav-toggle span {
+		background-color: #bec4cb;
+	}
+
+	.nav-toggle span:hover {
+		background-color: #bec4cb;
+	}
+
+}

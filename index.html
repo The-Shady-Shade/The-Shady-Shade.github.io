@@ -1,10 +1,140 @@
 <!DOCTYPE html>
 <html>
-    <head>
+<head>
+	<title>ShadyShade</title>
+	<!-- CSS files -->
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.3.1/css/bulma.min.css">
+	<link rel="stylesheet" type="text/css" href="Assets/CSS/style.css">
 
-    </head>
-    <body>
-        <h1>Hello World</h1>
-        <p>I'm hosted with GitHub Pages.</p>
-    </body>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=VT323&display=swap" rel="stylesheet">
+
+	<link rel="icon" href="Icon.ico">
+	<meta name="author" content="ShadyShade">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+	<body>
+		<!-- Navbar -->
+		<nav class="nav container void-background">
+			<!-- This "nav-menu" is hidden on mobile -->
+			<!-- Add the modifier "is-active" to display it on mobile -->
+			<div class="nav-left">
+				<a href="https://theshadyshade.itch.io/" class="nav-item">
+					<span class="icon">
+						<i class="fa-brands fa-itch-io"></i>
+					</span>
+				</a>
+				<a href="http://github.com/The-Shady-Shade" class="nav-item">
+					<span class="icon">
+						<i class="fa-brands fa-github"></i>
+					</span>
+				</a>
+				<a href="https://x.com/The_Shady_Shade" class="nav-item">
+					<span class="icon">
+						<i class="fa-brands fa-twitter"></i>
+					</span>
+				</a>				
+			</div>
+
+			<div class="nav-right nav-menu">
+				<a class="nav-item" href="#about">About</a>
+				<a class="nav-item" href="#projects">Projects</a>
+				<!--<a class="nav-item" href="#social">Social</a>-->
+			</div>
+
+			<!-- This "nav-toggle" hamburger menu is only visible on mobile -->
+			<!-- You need JavaScript to toggle the "is-active" class on "nav-menu" -->
+			<span class="nav-toggle">
+				<span></span>
+				<span></span>
+				<span></span>
+			</span>
+		</nav>
+				
+		<!-- About Me -->
+		<section id="about" class="section section-1">
+			<div class="container has-text-centered">
+				<!-- Source: https://flic.kr/p/pAZBNK -->
+				<img class="avatar" src="Assets/Images/Logo.png">
+			</div>
+			<div class="container">
+				<p class="intro">
+					Hello there!<br>
+					I'm ShadyShade, a beginner game developer.
+				</p>
+			</div>
+		</section>
+		
+		<!-- Projects -->
+		<section  id="projects" class="section section-2">
+			<div class="container">
+				<div class="has-text-centered">
+					<h3 class="title is-3">Projects</h3>
+				</div>
+				
+				<div class="columns is-multiline is-desktop">
+					<!-- Project 1 -->
+					<div class="column">
+						<div class="box project-text">
+							<article>
+								<div>
+									<figure class="image project-figure">
+										<iframe frameborder="0" src="https://itch.io/embed/2710520?border_width=2&amp;bg_color=242234&amp;fg_color=dae0ea&amp;link_color=dae0ea&amp;border_color=dae0ea" width="522" height="169"><a href="https://theshadyshade.itch.io/shadow-of-light">Shadow of Light by ShadyShade</a></iframe>
+									</figure>
+								</div>
+								<div>			
+									<p>
+										<br>Shadow of Light is a 1-bit platformer with stealth mechanics.<br><br>
+										You're playing as a little ghost who was a hero of light before.<br><br>
+										Now you need to hide in the shadows and sneak past the enemies to get through.<br><br>
+										You will get new abilities, that will help you in your way, such as dash, double jump and wall jump.
+									</p>
+								</div>
+							</article>
+						</div>
+					</div>
+					<!-- Project 2 -->
+					<div class="column">
+						<div class="box project-text">
+							<article>
+								<div>
+									<figure class="image project-figure">
+										<iframe frameborder="0" src="https://itch.io/embed/2667446?border_width=2&amp;bg_color=000000&amp;fg_color=8900e8&amp;link_color=ff1178&amp;border_color=8900e8" width="522" height="169"><a href="https://theshadyshade.itch.io/techrace">TechRace by ShadyShade</a></iframe>
+									</figure>
+								</div>
+								<div class="project-text-two">			
+									<p>
+										<br>TechRace - an arcade videogame that is inspired by the aesthetics of the 80s,<br><br>
+										So just take your VHS tapes and get in your car!
+									</p>
+								</div>
+							</article>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Social 
+		<section id="social" class="section section-3">
+			<div class="container">
+				<div class="has-text-centered">					
+					<h3 class="title is-3">Let's Socialize</h3>
+				</div>
+				<div class="social-container columns">
+					<div class="column is-6 has-text-centered">
+						<a target="_blank" href="https://ca.linkedin.com/in/hassan-ali-6132468a"><img class="" src="Assets/Images/linkedin.png"></a>
+					</div>
+					<div class="column is-6 has-text-centered">
+						<a target="_blank" href="https://www.facebook.com/Hassan.Helfi"><img class="" src="Assets/Images/facebook.png"></a>
+					</div>
+				</div>
+			</div>
+		</section>	 -->
+		
+		<!-- Scripts  -->
+		<script src="https://kit.fontawesome.com/e0c6ac4fbf.js" crossorigin="anonymous"></script>	
+		<script src="main.js"></script>		
+	</body>	
 </html>
