@@ -102,23 +102,23 @@ a.nav-item:hover {
 	}
 
 	.avatar{
-		height: 200px; /* Лого */
+		height: 150px; /* Лого */
 	}
 
-	/*.nav-menu {
+	.nav-menu {
 		background-color: #1e1e1e;
 	}
 
-	.nav-toggle:hover {
+	/*.nav-toggle:hover {
 		background-color: #8900e8;
 	}
 
 	.nav-toggle span {
-		background-color: #bec4cb;
+		background-color: #1e1e1e;
 	}
 
 	.nav-toggle span:hover {
-		background-color: #8900e8;
+		background-color: #1e1e1e;
 	}*/
 
 }
