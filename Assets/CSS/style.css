@@ -8,7 +8,6 @@ html, body{
 	font-family: 'Roboto', serif;
 	font-size: 16px;
 	color: #bec4cb;
-	/*text-shadow: 1px 1px 1px #bec4cb7e, 0px 0px 0rem #bec4cb7e;*/
 	background-color: #1e1e1e;
 }
 
@@ -17,9 +16,9 @@ a {
 	text-decoration: none;
 	background-image: linear-gradient(#8900e8, #8900e8);
 	background-position: 50% 90%;
-    background-repeat: no-repeat;
-    background-size: 0% 2px;
-    transition: background-size .3s;
+	background-repeat: no-repeat;
+	 background-size: 0% 2px;
+	transition: background-size .3s;
 }
 
 a:hover {
@@ -116,17 +115,4 @@ a.nav-item:hover {
 	.nav-menu {
 		background-color: #1e1e1e;
 	}
-
-	/*.nav-toggle:hover {
-		background-color: #8900e8;
-	}
-
-	.nav-toggle span {
-		background-color: #1e1e1e;
-	}
-
-	.nav-toggle span:hover {
-		background-color: #1e1e1e;
-	}*/
-
 }
